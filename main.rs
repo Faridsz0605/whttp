@@ -9,7 +9,7 @@ fn main() {
     // Bind to the host and port
     let endpoint = format!("{}:{}", HOST, PORT); // se format! es un macro, permite incluir variables en cadenas
     let listener = TcpListener::bind(endpoint).unwrap(); // se crea una variable que es el listener, se hace un bind y se pasa el parametro de la direccion y posteriormente se hace un unwrap para manejar errores (vacios)
-    print!("servidor iniciado con exito en puerto {}", PORT);
+    print!("servidor iniciado con exito en puerto {} /n", PORT);
 
     for flujo in listener.incoming() {
         let mut trafico = flujo.unwrap();

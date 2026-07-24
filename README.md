@@ -1,7 +1,7 @@
 <h1 align="center">whttp- Rust version</h1>
 
 <p align="center">
-  A minimal HTTP/1.1 server written in Rust, built for educational purposes
+  A minimal HTTP/1.1 server written in Rust, built for educational purposes. This is human project no AI slop. And i am not even a junior just a crazy data scientist. Dont judge pls :) 
 </p>
 
 <p align="center">
@@ -59,7 +59,7 @@ git clone https://github.com/WienerStudios/whttp.git
 cd whttp
 
 # Compile
-rustc -o whttp main.c
+rustc -o whttp main.rs
 
 # Or with make (if Makefile is present)
 make
@@ -147,6 +147,6 @@ MIT License — see [LICENSE](LICENSE) for details.
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Wiener%20Studios-educational-black?style=flat-square" alt="Wiener Studios">
-  <img src="https://img.shields.io/badge/built%20from-scratch-lightgrey?style=flat-square" alt="Built from scratch">
+  <img src="https://img.shields.io/badge/Wiener%20educational-black?style=flat-square" alt="Wiener Studios">
+  <img src="https://img.shields.io/badge/IDK-lightgrey?style=flat-square" alt="Built from scratch">
 </p>
